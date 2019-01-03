@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".About">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About us"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Current Version"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewCVi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.0" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Watch and Earn:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewAi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Watch and earn is a free app which lets all its users watch the ads and money in return. We display different types of ads and provide rewards accordingly. Users also get some rewards on daily basis." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developed by :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewDi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abhishek Dhekane" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

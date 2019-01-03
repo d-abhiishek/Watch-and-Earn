@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "866110856815",
+    "firebase_url": "https://watch-and-earn-7500c.firebaseio.com",
+    "project_id": "watch-and-earn-7500c",
+    "storage_bucket": "watch-and-earn-7500c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866110856815:android:6b485723b0cfaa81",
+        "android_client_info": {
+          "package_name": "comviewappisome.google.sites.watchandearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866110856815-dngba24id1er2c7b8slofcbo6ud3gtus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comviewappisome.google.sites.watchandearn",
+            "certificate_hash": "8a43c1939ce420d00be9ec4e80eb68fa9fdbff70"
+          }
+        },
+        {
+          "client_id": "866110856815-t8a287s2elea0c6aerbl84ihmqhlhnju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV5e6iO7A6wCUfolxa3xJevYxRMU7slXc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866110856815-t8a287s2elea0c6aerbl84ihmqhlhnju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

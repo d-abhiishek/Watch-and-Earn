@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    tools:context=".ChoiceSelection">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:layout_marginBottom="-50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/DailyCheck"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:drawableStart="@drawable/ic_daily"
+                android:onClick="dailyCheck"
+                android:text="Daily Check-ins" />
+
+            <Button
+                android:id="@+id/WatchSmall"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:drawableStart="@drawable/ic_video"
+                android:onClick="startVideo"
+                android:text="Watch Video" />
+
+            <Button
+                android:id="@+id/Spin"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:drawableStart="@drawable/ic_spin"
+                android:onClick="luckyWheel"
+                android:text="Spin to win" />
+
+            <Button
+                android:id="@+id/WatchAds"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:drawableStart="@drawable/ic_ads"
+                android:text="Small Ads" />
+
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
+</RelativeLayout>

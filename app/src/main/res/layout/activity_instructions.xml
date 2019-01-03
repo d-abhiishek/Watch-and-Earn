@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".Instructions">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Instructions"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewDC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Daily Check-ins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewDCi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Open Daily Check-ins everyday to earn coins on daily basis. You can only get rewarded once everyday.\nRewards are as follows -\nMondays and Tuesday - 10 coins\nWednesdays and Thurdays - 20 Coins\nFridays and Saturdays - 30 Coins\nSundays - 50 Coins" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewWV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Watch Video"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewWVi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Watch unlimited videos everyday to keep earning coins. Watching every video gives you 50 coins, however closing video in between won't give you any coins." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewSW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spin to Win"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewSWi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Luck is the key here. You get one spin every day and rest goes as its name. Spin it and win coins." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewSA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Small Ads"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewSAi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don't have time to watch long video ads? Watch these quick small ads and win 2 coins for each ad." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewBA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Banner Ads"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewBAi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The ads appearing at the bottom of the screen give you rewards as well. Just open them once and quick 2 coins in your pocket." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewRedeem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Redeeming"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewRedeemi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To spend these hard earned coins, you first need to redeem them. You can redeem it through Paytm, PhonePe, AmazonPay or GPay. You get Rs. 1 for every 1,000 coins you earn, however you can request payment only for 10,000 coins at a time. The payment is cleared within 3 days of request." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewHistoryi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can keep track of everything you do at this history tab. Every video you watch, daily checkins, spins are show here. The payment requests are also shown here." />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

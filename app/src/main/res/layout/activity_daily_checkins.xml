@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyCheckins">
+
+    <ImageButton
+        android:id="@+id/imgMon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="monCheck"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imgWed"
+        app:layout_constraintEnd_toStartOf="@id/imgTue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/monday" />
+
+    <ImageButton
+        android:id="@+id/imgTue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="tueCheck"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imgThu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgMon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tuesday" />
+
+    <ImageButton
+        android:id="@+id/imgWed"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="wedCheck"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imgFri"
+        app:layout_constraintEnd_toStartOf="@id/imgThu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgMon"
+        app:srcCompat="@drawable/wednesday" />
+
+    <ImageButton
+        android:id="@+id/imgThu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="thuCheck"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imgSat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgWed"
+        app:layout_constraintTop_toBottomOf="@+id/imgTue"
+        app:srcCompat="@drawable/thursday" />
+
+    <ImageButton
+        android:id="@+id/imgFri"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="friCheck"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imgSun"
+        app:layout_constraintEnd_toStartOf="@id/imgSat"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgWed"
+        app:srcCompat="@drawable/friday" />
+
+    <ImageButton
+        android:id="@+id/imgSat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="satCheck"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imgSun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgFri"
+        app:layout_constraintTop_toBottomOf="@+id/imgThu"
+        app:srcCompat="@drawable/saturday" />
+
+    <ImageButton
+        android:id="@+id/imgSun"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitCenter"
+        android:onClick="sunCheck"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFri"
+        app:srcCompat="@drawable/sunday" />
+
+</android.support.constraint.ConstraintLayout>
